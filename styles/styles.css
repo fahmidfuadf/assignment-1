@@ -127,3 +127,33 @@ nav li a {
     font-size: 20px;
 
 }
+.starting{
+    display: flex;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin: 20px 160px;
+}
+.one{
+    padding: 117px 59.99px;
+}
+.two{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: 500px;
+}
+.three{
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: 600;
+}
+.four{
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 17px 34px;
+}
+.five{
+    height: 400px;
+    width: 474.03px;
+}
