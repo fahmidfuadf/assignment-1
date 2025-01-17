@@ -130,6 +130,7 @@ nav li a {
 .starting{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #C6E4D6;
     border-radius: 24px;
     margin: 20px 160px;
@@ -138,7 +139,7 @@ nav li a {
     padding: 117px 59.99px;
 }
 .two{
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500px;
 }
@@ -153,6 +154,7 @@ nav li a {
     font-size: 18px;
     font-weight: 600px;
     padding: 17px 34px;
+    color: white;
     cursor: pointer;
 }
 .four:hover {
@@ -161,6 +163,7 @@ nav li a {
 .five{
     height: 400px;
     width: 474.03px;
+    padding-right: 59.99px;
 }
 .pillars{
   margin: 80px 160px;
@@ -218,6 +221,7 @@ nav li a {
   padding: 11px 20px;
   font-size: 16px;
   font-weight: 600px;
+  border: none;
   border-radius: 8px;
   background-color: rgba(84, 144, 245, 1);
   color: white;
@@ -230,6 +234,7 @@ nav li a {
   padding: 11px 20px;
   font-size: 16px;
   font-weight: 600px;
+  border: none;
   border-radius: 8px;
   background-color: rgba(9, 161, 92, 1);
   color: white;
@@ -242,6 +247,7 @@ nav li a {
   padding: 11px 20px;
   font-size: 16px;
   font-weight: 600px;
+  border: none;
   border-radius: 8px;
   background-color: rgba(255, 194, 57, 1);
   color: white;
@@ -258,7 +264,8 @@ nav li a {
   background-size: 64px 64px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   margin-top: 32px;
-  
+  border-radius: 16px;
+  border: 1px solid #ddd;
 }
 .yunus-statement{
   padding: 48px 24px 12px 24px;
@@ -269,6 +276,11 @@ nav li a {
 }
 .opinion{
   margin: 80px 160px;
+}
+.opinion-daw{
+  padding: 32px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
 }
 .opinion table {
   width: 100%;
@@ -300,8 +312,12 @@ nav li a {
 }
 .news{
   display: flex;
+  align-items: center;
+  margin-bottom: 24px;
   padding: 48px;
   gap: 32px;
+  border-radius: 24px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
 }
 .satelite{
   width: 408px;
@@ -310,6 +326,7 @@ nav li a {
 }
 .news-content{
   font-size: 32px;
+  margin-bottom: 12px;
   font-weight: 700px;
   color: rgba(14, 14, 14, 0.8);
 }
@@ -323,6 +340,7 @@ nav li a {
   font-weight: 600px;
   background-color: rgba(0, 106, 80, 1);
   border-radius: 8px;
+  border: none;
   color: white;
   cursor: pointer;
 }
@@ -365,6 +383,9 @@ nav li a {
 .donate{
   text-align: center;
 }
+.donate-para{
+  padding: 0px 88px;
+}
 .donate-buttons {
   display: flex;
   justify-content: center;
@@ -373,7 +394,7 @@ nav li a {
 }
 .donate-option {
   padding: 40px 40px;
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 16px;
   font-size: 40px;
   font-weight: 700px;
@@ -383,28 +404,38 @@ nav li a {
 }
 .donate-option-2 {
   padding: 40px 40px;
-  border: 2px solid #ddd;
   border-radius: 16px;
   font-size: 40px;
   font-weight: 700px;
   cursor: pointer;
   transition: background 0.3s ease;
-  background-color: #d4f4e0;
-  border: 2px solid #28a745;
+  background-color: rgba(198, 228, 214, 1);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate-option-2:hover{
+  background-color: rgba(198, 228, 214, 0.6);
 }
 .donate-option:hover {
   background-color: #f5f5f5;
 }
 .donate input[type="text"]{
   padding: 20px;
-  width: 50%;
+  width: 73%;
   margin-bottom: 10px;
   border: none;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 1px solid #ddd;
   font-size: 20px;
   text-align: center;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.donate ::placeholder{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
 }
 .donate-submit {
+  font-size: 18px;
+  font-weight: 600px;
   padding: 17px 34px;
   background-color: #006A50;
   color: white;
@@ -419,6 +450,17 @@ nav li a {
 }
 .subscribe{
   text-align: center;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+  padding: 80px 265px;
+}
+.subscribe-title{
+  font-size: 40px;
+  font-weight: 700px;
+  margin-bottom: 16px;
+}
+.subscribe-subtitle{
+  padding: 0px 64px;
 }
 .email{
   font-size: 16px;
@@ -430,10 +472,12 @@ nav li a {
 .btn-7{
   padding: 17px 34px;
   width: 150px;
-  height: 56px;
+  height: 53px;
   color: white;
   background-color: rgba(0, 106, 80, 1);
-  border-radius: 6px;
+  border: none;
+  border-top-right-radius: 6px;
+  border-end-end-radius: 6px;
   cursor: pointer;
 }
 .btn-7:hover{
@@ -454,4 +498,19 @@ nav li a {
 }
 .icon-img:hover{
   background-color: rgba(0, 0, 0, 0.15);
+}
+.subscribe-item{
+  display: flex;
+  justify-content: center;
+}
+.subscribe input[type="email"]{
+  font-size: 16px;
+  font-weight: 400px;
+  border: none;
+  padding: 18px 403px 18px 40px;
+  border-top-left-radius: 6px;
+  border-end-start-radius: 6px;
+}
+.promise{
+  margin-top: 24px;
 }
