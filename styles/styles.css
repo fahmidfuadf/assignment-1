@@ -153,6 +153,10 @@ nav li a {
     font-size: 18px;
     font-weight: 600px;
     padding: 17px 34px;
+    cursor: pointer;
+}
+.four:hover {
+  background-color: rgba(0, 106, 80, 0.6);
 }
 .five{
     height: 400px;
@@ -217,6 +221,10 @@ nav li a {
   border-radius: 8px;
   background-color: rgba(84, 144, 245, 1);
   color: white;
+  cursor: pointer;
+}
+.btn-1:hover{
+  background-color: rgba(84, 144, 245, 0.6);
 }
 .btn-2{
   padding: 11px 20px;
@@ -225,6 +233,10 @@ nav li a {
   border-radius: 8px;
   background-color: rgba(9, 161, 92, 1);
   color: white;
+  cursor: pointer;
+}
+.btn-2:hover{
+  background-color: rgba(9, 161, 92, 0.6);
 }
 .btn-3{
   padding: 11px 20px;
@@ -233,6 +245,10 @@ nav li a {
   border-radius: 8px;
   background-color: rgba(255, 194, 57, 1);
   color: white;
+  cursor: pointer;
+}
+.btn-3:hover{
+  background-color: rgba(255, 194, 57, 0.6);
 }
 .yunus{
   background-image: url("../assets/quote-bg.png");
@@ -308,6 +324,10 @@ nav li a {
   background-color: rgba(0, 106, 80, 1);
   border-radius: 8px;
   color: white;
+  cursor: pointer;
+}
+.btn-4:hover{
+  background-color: rgba(0, 106, 80, 0.6);
 }
 .donate{
   text-align: center;
@@ -413,6 +433,11 @@ nav li a {
   height: 56px;
   color: white;
   background-color: rgba(0, 106, 80, 1);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-7:hover{
+  background-color: rgba(0, 106, 80, 0.6);
 }
 .footer{
   text-align: center;
@@ -425,4 +450,8 @@ nav li a {
 .icon-img{
   width: 24px;
   height: 24px;
+  cursor: pointer;
+}
+.icon-img:hover{
+  background-color: rgba(0, 0, 0, 0.15);
 }
