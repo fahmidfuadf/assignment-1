@@ -162,6 +162,7 @@ nav li a {
     padding: 17px 34px;
     color: white;
     cursor: pointer;
+    border: none;
 }
 .four:hover {
   background-color: rgba(0, 106, 80, 0.6);
